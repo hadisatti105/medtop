@@ -1,0 +1,29 @@
+{
+  "name": "tldcrm-webform",
+  "version": "1.0.0",
+  "description": "A simple web form to submit client phone data to the TLDCRM vendor API.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "express",
+    "axios",
+    "tldcrm",
+    "webform",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
